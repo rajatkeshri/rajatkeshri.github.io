@@ -1,0 +1,228 @@
+<html>
+<head>
+    
+    
+</head>
+<body>
+    <script type="text/javascript">
+        
+        
+        function remove_character(str, char_pos) 
+ {
+  part1 = str.substring(0, char_pos);
+  part2 = str.substring(char_pos + 1, str.length);
+  return (part1 + part2);
+ }
+    
+        var name1 = prompt("enter name1");
+        var name2 = prompt("enter name2");
+        
+        //var name1="padma"
+        //var name2="priya"
+        var i,j
+        var z=name1.length +name2.length
+        
+        for(i=0;i<name1.length;i++)
+            {
+                
+                for(j=0;j<name2.length;j++)
+                    {
+                        if(name1[i]==name2[j])
+                            {
+                                
+                                /*name1=remove_character(name1,i)
+                                name2=remove_character(name2,j)
+                                //name1.replace(name1.charAt(i),"")
+                                //name2.replace(name2.charAt(j),"")
+                                z-2;
+                                break;
+                                */
+                                var a1 = name1.substring(0,i);
+                                var a2 = name1.substring(i+1,name1.length);
+                                name1 = a1+a2;
+                                i=-1;
+                                var b1 = name2.substring(0,j);
+                                var b2 = name2.substring(j+1,name2.length);
+                                name2 = b1+b2;
+                                j=-1;
+                                break;
+                                
+                                
+                            }
+                    
+                          
+                    }
+                
+              
+            }
+        
+        
+        //document.write(name1.length+name2.length+"<br>");
+        
+        var n= name1.length+name2.length;
+        
+        result(n)
+        
+        function result(n)
+        {
+            string = "flames";
+            number = n;
+            process = new Array();
+ 
+            while(string.length>=2)
+            {
+            var j=0;
+            process = [];
+            position = number%string.length;
+ 
+                if(position!=0)
+                {
+                    for(i=position+1; i<=string.length; i++)
+                        {
+                        process[j] = string.charAt(i-1);
+                        j++;
+                        }
+ 
+                    for(i=0; i<=position-2; i++)
+                    {
+                        process[j] = string.charAt(i);
+                        j++;
+                    }
+                    string = process.toString().replace(/,/gi,"");
+                }
+                else
+                {
+                string = string.slice(0,-1);
+                }
+            }  
+            
+        //document.write("<h1>"+string+"<b>")
+            
+        display(string);
+    }
+ 
+        
+        
+function display(s)
+        {
+            
+            document.write("<marquee> <h1> YOLO </h1></marquee> ")
+    if(s=='f')
+        {
+            document.write("<h1> <center>"+'friends, sad but dont lose hope'+"</h1> </center>")
+        }
+        if(s=='l')
+        {  
+   document.write("<h1><center>"+'ooooooooo, LOVE! now you have a reason in life'+"</h1>")
+ }
+ if(s=='a')
+ {
+   document.write("<h1><center>"+'dayumm, affection.Go make your move :P'+"</h1>")
+ }
+ if(s=='m')
+ {
+   document.write("<h1><center>"+'shaaadii set aka marriage'+"</h1>")
+ }
+ if(s=='e')
+ {
+   document.write("<h1><center>"+'ENEMIESS MAAX'+"</h1>")
+ }
+ if(s=='s')
+ {
+   document.write("<h1><center>"+'sister, awww'+"</h1>")
+ }
+}
+        
+        
+        
+    
+        /*var ss=(name1+name2);
+        var l=name1.length+name2.length
+        
+        
+        
+        var ar = new Array("F", "L", "A", "M", "E", "S");
+                    var stp=1;
+            
+                    for(var x=6; x>1; x--)
+                    {
+                            var g=((l%x)+stp)-1;
+                            if(g>x)
+                            {
+                                    g=g%x;
+                            }
+                            if(g==0)
+                            {
+                                    g=ar.length;
+                            }
+                            ar.splice(g-1,1);
+                            stp=g;
+                            //alert(ar);
+                    }
+
+                    if(ar=="F")
+                    {
+                            //res="FRIENDS";
+							document.getElementById("msg").innerHTML = 'FRIENDS';
+							document.getElementById("msg").style.color='blue';                  
+                    }
+                    else if(ar=="L")
+                    {
+                            //res="LOVER";
+							document.getElementById("msg").innerHTML = 'LOVER';
+							document.getElementById("msg").style.color='#FF0080';
+                    }
+                    else if(ar=="A")
+                    {
+                            //res="AFFECTION";
+							document.getElementById("msg").innerHTML = 'AFFECTION';
+							document.getElementById("msg").style.color='#DBA901';
+                    } 
+                    else if(ar=="M")
+                    {
+                            //res="MARRIAGE";
+							document.getElementById("msg").innerHTML = 'MARRIAGE';
+							document.getElementById("msg").style.color='green';
+                    }
+                    else if(ar=="E")
+                    {	
+                            //res="ENEMY";
+							document.getElementById("msg").innerHTML = 'ENEMY';
+							document.getElementById("msg").style.color='red';
+                    }
+                    else if(ar=="S")
+                    {
+                            //res="SISTER";
+							document.getElementById("msg").innerHTML = 'SISTER';
+							document.getElementById("msg").style.color='violet';
+                    }
+                    document.getElementById("nam"+1).style.display = 'block';
+                    document.getElementById("nam"+1).textContent=nam + " & " +names;
+            }
+            else
+            {
+                    document.getElementById("nam"+1).style.display = 'none';
+                    count++; 
+                    if(count==4)
+                    {
+                            alert("Enter anyone of your partner name");
+                            document.getElementById("tablid").style.display = 'block';
+                    }
+            }          
+    }
+    else
+    {
+            return false;
+    }
+
+        
+    
+    
+    */
+    
+    </script>
+    
+
+    
+</body>
+</html>
