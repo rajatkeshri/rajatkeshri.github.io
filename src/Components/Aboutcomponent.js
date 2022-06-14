@@ -94,7 +94,7 @@ class About extends Component{
                         <div className="heading" id="about" name="about">
                             <Fade triggerOnce={"true"}>
                                 <p >
-                                  <center> <h1 className="fontc"> Me And My Experiences <FontAwesomeIcon icon={faStar} /> </h1></center> 
+                                  <center> <h1 className="fontc"> My Skills And Experiences <FontAwesomeIcon icon={faStar} /> </h1></center> 
                                 </p>
                             </Fade>
                         </div>
@@ -104,10 +104,10 @@ class About extends Component{
                         <div className="col-sm-12">
                             <Fade cascade triggerOnce={"true"} delay={500}>
                                 <p className="justify">
-                                I’m a super curious guy. I spend a lot of time coding and developing AI and Automation software, but there’s also a lot more to it. I desire to become an Entrepreneur with my hard work and skills in coding and business.
-                                <br></br><br></br>Programming is a true passion of mine and that passion continually grows with every meaningful tech-related conversation I have, with every moment of clarity as I finally figure out a nagging issue on a project, and with every new concept, language, or framework I delve into.
-                                <br></br><br></br>I enjoy the collaborative nature of working on a team building a product. The feedback, discussion, and review in this environment brings out the best in each individual member, and is a crucial component in my own personal development.
-                                <br></br><br></br>Apart from this, I am interested in Graphic desiging, Full-Stack web development and I call myself an Illustrator.
+                                I’m a super curious guy and I spend a lot of time coding and developing software, but there’s also a lot more to it. I desire to become an entrepreneur with my hard work and skills in coding and business.
+                                <br></br><br></br>I have been programming for 6+ years now and it has become a true passion of mine. This passion continually grows with every new innovation in the tech industry. I have experience in multiple software  domains and technologies, ranging from <span className="pcolor">Firmware Development, Automation Software, Machine Learning and Data Analytics, to Front-end Web Development and Server Side Development. </span>
+                                <br></br><br></br>I enjoy the collaborative nature of working on a team, building a technological products. The feedback, discussion, and review in this environment brings out the best in each individual member, and is also a crucial component in my own personal development.
+                                <br></br><br></br>Apart from this, I am also interested in <span className="pcolor">Graphic Desiging, Photography and Filmmaking</span>
                                 </p>
                             </Fade>
                         </div>

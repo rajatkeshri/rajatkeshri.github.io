@@ -23,7 +23,7 @@ class Intro extends Component{
                             </div>
                         </div>
                         <p className="justify">
-                        I am an Engineer and an enthusiastic AI/ML developer. I am proficient in developing automation software and applications using C, C++ and Python. I am also a web designer and full stack developer, having proficiency in using Django, React and NodeJS, with use case experience in MongoDB, MySQL and firebase database services. 
+                        I am an Electronics Engineer by degree and a Software Developer by skills. I love programming and building software solutions around AI, Machine Learning, Automation and Web Development.
                         </p>
                     </div>
                     <div className="col-sm-6">
