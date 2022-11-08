@@ -23,7 +23,7 @@ class Intro extends Component{
                             </div>
                         </div>
                         <p className="justify">
-                        I am an Electronics Engineer by degree and a Software Developer by skills. I love programming and building software solutions around AI, Machine Learning, Automation and Web Development.
+                        I am a CS Grad by degree and a Software Developer by skills. I love programming and building software solutions around AI, Machine Learning, DevOps and Web Development.
                         </p>
                     </div>
                     <div className="col-sm-6">
