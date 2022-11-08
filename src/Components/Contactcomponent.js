@@ -47,7 +47,7 @@ const Contact = () => {
         }
     };
 
-    const position = [71.0589,42.3601];
+    const position = [42.3601, -71.0589];
     //https://leaflet-extras.github.io/leaflet-providers/preview/
 
     /* https://{s}.tile.jawg.io/jawg-matrix/{z}/{x}/{y}{r}.png?access-token={LJYZLnmuipDZw5xABr2xi1gqd2848lcrhTveFzkXzyp9D6ViUbYUhe8A5ajqNX7f}', {
